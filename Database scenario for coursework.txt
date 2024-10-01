@@ -1,7 +1,0 @@
-Database scenario for coursework:
- example no 1 bird watching
-4 entities such as [member, bird, location and sighting]
-each with 2 example attributes or more
-e.g member ID, member Name, Address, Normally sighted, preferred habitat, post code, date...
-
-
