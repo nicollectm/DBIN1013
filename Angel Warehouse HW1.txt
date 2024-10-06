@@ -1,0 +1,25 @@
+Angel Warehouse HW1
+
+Bays
+-Unique bay number (primary key)
+-Location
+-Height
+-Fork Lift Equipment Number (Foreign key)
+
+Bins
+-Bin number (primary key)
+-Bay number(Foreign key)
+-Size
+-Max loaded weight
+
+fork lift
+-Unique equipment number (primary key)
+-Max carrying weight
+-Type (petrol or Electric)
+-Bay number
+
+Item
+-Item number (primary key)
+-Weight
+-Date entered
+

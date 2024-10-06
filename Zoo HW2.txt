@@ -1,0 +1,41 @@
+Zoo HW2:
+
+Enclosure (Entity)
+- Unique number (primary key)
+- habitat type
+- size
+- main feature (stream or cave)
+
+Animal (Entity)
+- Unique ID (primary key)
+- name
+- date of birth
+- diet 
+- description
+
+Animal Enclosure (Entity)
+- enclosure ID (foreign key)
+- animal unique ID (foreign key)
+- start date
+- end date
+
+Zoo keepers (Entity)
+- specific note for animal
+- date of note
+- animal unique ID (foreign key)
+
+Species (Entity)
+- ID (primary key)
+- name 
+- description 
+- habitat type
+
+Species compatibility table (Entity)
+- ID (primary Key)
+- Species A (foreign key)
+- Species B (foreign key)
+- Compatibility rating
+
+Species enclosure (Entity)
+- Max number of animals for a particular species
+- Enclosure unique number (foreign key)
