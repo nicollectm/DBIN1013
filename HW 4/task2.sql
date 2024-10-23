@@ -32,10 +32,10 @@ ON DUPLICATE KEY UPDATE
     eventtype = VALUES(eventtype),
     remark = VALUES(remark);
 
--- Update Slim's record
+-- Update Claw's record
 UPDATE petEvent
 SET remark = "broken rib"
-WHERE petname = "Slim" AND eventdate = "1997-08-03";
+WHERE petname = "Claw" AND eventdate = "1997-08-03";
 
 -- Update Puffball's death date
 UPDATE petPet
